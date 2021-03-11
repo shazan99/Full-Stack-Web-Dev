@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>iFrames</h1>
+    <iframe width="400" height="400" src="./iframes.html"></iframe> <!--An iframe inside an iframe-->
+    <h2>Open in Frame:</h2>
+    <ul>
+        <li><a target="frame1" href="./links.html">Links</a></li>
+        <li><a target="frame1" href="./inner-links.html">Inner Links</a></li>
+    </ul>
+    <iframe name="frame1" frameborder="1" 
+    width="400" 
+    height="400" 
+    src="./links.html">
+    </iframe>
+
+    <!-- Iframe helps in embedding one webpage into another,for eg:embedding a Youtube video in an article-->
+   <h3>Embedded Exmaple Page</h3>
+    <iframe
+      frameborder="1"
+      width="400"
+      height="400"
+      src="https://exmaple.com">
+    </iframe>
+
+
+</body>
+</html>
