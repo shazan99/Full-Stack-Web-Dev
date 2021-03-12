@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input>
+    <br>
+    <input type="password">
+    <br>
+    <input type="email">
+    <br>
+    <input min="100" max="200" type="number"> <!--This is a number picker with min and max defined-->
+    <br>
+    <input type="date"> <!--This is a date picker-->
+    <br>
+    <input type="color"> <!-- This will enable color picker-->
+    <br>
+    <input type="file"> <!--This will enable file uploader-->
+    <br>
+    <input id="a" type="checkbox"><label for="a"> A </label> 
+    <!--Here the label tag will enable checking the boxes even if we click on name-->
+    <input id="b" type="checkbox"><label for="b"> B </label> 
+    <input type="checkbox"> C <!--This will enable checkboxes-->
+    
+
+    <!--Multiple Checkboxes can be ticked, but only one radio button can be selected from a group-->
+
+    <br>
+    <input name="channel" type="radio"> X
+    <input name="channel" type="radio"> Y
+    <input name="channel" type="radio"> Z <!-- This will Enable Radio button-->
+    <br>
+    <input id="s1" name="show" type="radio"><label for="s1">Sacred Games</label> 
+    <input name="show" type="radio"> Money Heist
+    <input name="show" type="radio"> Game of Thrones
+    <br>
+    <!--Textarea let's you write text in an box which is resizebale-->
+    <textarea>My name is Shazan</textarea>
+    <br>
+    <!--Select area let's us select from various options defined, multiple let's us choose more than 1-->
+    <select multiple>
+        <option>Pizza</option>
+        <option>Burger</option>
+        <option>Pasta</option>
+        <option>Brownie Fudge</option>
+        <option>Apple Pie</option>
+    </select>
+    <h2>Form</h2>
+    <!-- This is form with an action of google search in which it copies the parameters from searchbox and 
+        pastes it in the url-->
+    <form action="https://google.com/search">
+        <input name="q">
+        <button type="submit">Search</button>
+        <button type="reset" >X</button> <!--Reset button clears the form-->
+    </form>
+</body>
+</html>
