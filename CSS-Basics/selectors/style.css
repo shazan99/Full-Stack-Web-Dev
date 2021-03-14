@@ -1,0 +1,36 @@
+* {  /* This is a universal selector*/
+    font-style: italic;
+}
+div {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+.big { /*This is a class selector*/
+    font-size: 25pt;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#one { /*This is a ID selector*/
+    background-color: aqua;
+}
+#two
+{
+    padding-left: 25pt;
+}
+
+input[disabled]
+{
+  height: 100px;
+}
+
+input[type="text"]
+{
+    height: 30px;
+}
