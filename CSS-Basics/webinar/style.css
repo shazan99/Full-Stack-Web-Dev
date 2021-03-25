@@ -1,0 +1,27 @@
+* {  /*This will apply changes to all elements*/
+    
+    color: red;
+}
+
+div {
+    margin-left: 30px;
+}
+p {
+    font-size: 30px;
+}
+
+#p2 {  /*To select the particular element associated with that id*/
+    font-family:'Courier';
+}
+
+#p3 {
+    margin-left: 20px;
+}
+
+.osmpara { /*To select a class we use a dot followed by class name*/
+    background-color: lightcoral;
+}
+
+.bigpara {
+    font-size: 50px;
+}
