@@ -1,0 +1,15 @@
+h2 + p {  /*This is adjacent sibling combinator using '+'*/
+    font-weight: bold;
+}
+
+h2 ~p {  /* THis is sibling combinator using '~'*/
+    color: red;
+}
+
+section >p {  /* This is child combinator using '>'*/
+    background-color: aqua;
+}
+
+section p {  /* This is descendant combinator using 'space'*/
+    font-family: monospace;
+}
