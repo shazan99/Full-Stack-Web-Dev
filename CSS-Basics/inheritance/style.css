@@ -1,0 +1,27 @@
+* {
+    background-color: lightcyan;
+}
+
+.c1 {
+    background-color: lightgreen;
+}
+
+div {
+    background-color: lightseagreen;
+}
+ /* Precedence order: id > class > elements > '*'    */
+#id1 {
+    background-color: lightsalmon;
+}
+#id1 {
+    background-color: lightsteelblue;
+}
+
+/*
+
+'*'    -> Applies to all
+div, p -> Applies to that type of element
+.abc   -> Applies to class abc
+#xyz   -> Applies to id xyz
+
+*/
