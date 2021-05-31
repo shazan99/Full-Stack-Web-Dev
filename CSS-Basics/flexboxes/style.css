@@ -1,0 +1,32 @@
+.fcontainer {
+    display: flex;
+    border: 2px solid grey;
+    height: 45vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*align-items: center; */
+   /* flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+   /*flex-flow: column wrap ; */
+}
+
+.fitem {
+    background-color:beige;
+    border: 2px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+}
+
+.item1 {
+    order: 3;
+    /*flex-grow: 3; */
+   /* flex-shrink: 2; */
+    align-self: center;
+}
+
+.item4 {
+    order: 5;
+   /* flex-grow: 2; */
+}
+
