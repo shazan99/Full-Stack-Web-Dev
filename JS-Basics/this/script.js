@@ -1,3 +1,6 @@
+// If 'this' is in method in an object -> obj
+//if 'this' is in general function -> global(window, global)
+
 
 function checkThis() {
     console.log(this)
