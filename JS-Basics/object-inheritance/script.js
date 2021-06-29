@@ -5,3 +5,21 @@ let obj1 = {
 }
 
 let obj2 = Object.create(obj1)
+obj2.p = 'adg'
+obj2.q = 'dhfjd'
+obj2.r = 'sndfkn'
+
+let obj3 = Object.create(obj2)
+
+//obj3.__proto__ ==obj2
+//obj3.__proto__.__proto__ == obj1
+
+/* obj2.a -> it ill try to find a in obj2
+          -> if not found,
+          -> it will try to find it in obj2.__proto__
+          -> if not found
+          -> it will try to find  it in obj2.__proto__.__proto__
+          -> ... and so on...
+          -> till __proto__  becomes null
+*/
+
