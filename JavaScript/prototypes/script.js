@@ -35,6 +35,9 @@ console.log(arr.__proto__ == Array.prototype)
 
 //String.prototype inherits from Object.prototype
 
+String.prototype.charAt = function(){ return 'X'}
+console.log(str.charAt(1))
+
 Array.prototype.joinOriginal = Array.prototype.join
 
 Array.prototype.join = function()
