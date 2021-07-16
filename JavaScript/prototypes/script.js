@@ -34,3 +34,11 @@ console.log(bool.__proto__ == Boolean.prototype)
 console.log(arr.__proto__ == Array.prototype)
 
 //String.prototype inherits from Object.prototype
+
+Array.prototype.joinOriginal = Array.prototype.join
+
+Array.prototype.join = function()
+{
+    console.log('join called on', this)
+    return this.joinOriginal(...arguments)
+}
